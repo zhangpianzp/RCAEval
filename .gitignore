@@ -218,6 +218,7 @@ data/online-boutique
 data/sock-shop-1
 data/sock-shop-2
 data/train-ticket
+data/
 output
 *.zip
 .DS_Store
