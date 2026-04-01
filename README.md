@@ -32,6 +32,7 @@ RCAEval is an open-source benchmark that offers nine datasets with 735 real fail
     + [RCAEval Benchmark Paper](#rcaeval-benchmark-paper)
     + [For ASE Paper](#for-ase-paper)
   * [Creating New RCA Datasets or Methods](#creating-new-rca-datasets-or-methods)
+  * [Algorithm Principles](#algorithm-principles)
   * [Licensing](#licensing)
   * [Acknowledgments](#acknowledgments)
   * [Change Logs](#change-logs)
@@ -207,6 +208,10 @@ Downloading RE3.zip..: 100%|█████████████████�
 ## Available Baselines 
 
 RCAEval stores all the RCA methods in the `e2e` module (implemented in `RCAEval.e2e`). There are 15 RCA baselines available: RUN, CausalRCA, CIRCA, RCD, MicroCause, EasyRCA, MSCRED, BARO, 𝜖-Diagnosis, TraceRCA, MicroRank, PDiagnose, Multi-source BARO, Multi-source RCD, Multi-source CIRCA.
+
+## Algorithm Principles
+
+See [docs/ALGORITHM_PRINCIPLES.md](docs/ALGORITHM_PRINCIPLES.md) for a structured explanation of method families, core ideas, input requirements, and method selection guidance.
 
 ## Reproducibility
 
