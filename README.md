@@ -213,6 +213,8 @@ RCAEval stores all the RCA methods in the `e2e` module (implemented in `RCAEval.
 
 See [docs/ALGORITHM_PRINCIPLES.md](docs/ALGORITHM_PRINCIPLES.md) for a structured explanation of method families, core ideas, input requirements, and method selection guidance.
 
+For per-algorithm detailed docs and quick navigation, see [docs/algorithms/INDEX.md](docs/algorithms/INDEX.md).
+
 ## Reproducibility
 
 ### RCAEval Benchmark Paper
